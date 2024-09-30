@@ -1,0 +1,266 @@
+---
+import Layout from "../layouts/Layout.astro";
+import SolutionCard from "../components/SolutionCard.astro";
+---
+
+<style>
+  .hero-section {
+    margin-top: 56px;
+    min-height: calc(100vh - 56px);
+  }
+</style>
+<Layout title="Home">
+  <section
+    class="hero-section container d-flex flex-column justify-content-center text-center"
+  >
+    <h1 class="display-1 fw-bold playfair-display text-center">
+      Forget everything you thought you knew about <span class="text-primary"
+        >business</span
+      >.
+    </h1>
+    <p class="mt-3">Discover how we are changing the game.</p>
+    <div>
+      <button class="btn btn-outline-primary border-radius-50"
+        >Request a Demo <i class="bi bi-arrow-right"></i></button
+      >
+    </div>
+  </section>
+  <section class="bg-body-tertiary">
+    <div class="container jumbotronSection">
+      <h1 class="playfair-display fw-bold">Solutions</h1>
+      <div class="row mt-4 mt-lg-5">
+        <div class="col-md p-2">
+          <SolutionCard
+            title="Cool stuff we do #1"
+            description="This is a description of the cool stuff we do #1. We are really good at #1."
+            link="/article1"
+            imageName="solutioncard-bg-1.webp"
+          />
+        </div>
+        <div class="col-md p-2">
+          <SolutionCard
+            title="Cool stuff we do #2"
+            description="This is a description of the cool stuff we do #2. We are really good at #2."
+            link="/article2"
+            imageName="solutioncard-bg-2.webp"
+          />
+        </div>
+        <div class="col-md p-2">
+          <SolutionCard
+            title="Cool stuff we do #3"
+            description="This is a description of the cool stuff we do #3. We are really good at #3."
+            link="/article3"
+            imageName="solutioncard-bg-3.webp"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container jumbotronSection">
+      <h1 class="playfair-display fw-bold">Vision</h1>
+      <p class="mt-4 fs-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <p class="fs-5">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <p class="fs-5">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat.
+      </p>
+      <p class="fs-5">
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+      <a class="btn btn-outline-primary border-radius-50" href="/about"
+        >Learn more about us <i class="bi bi-arrow-right"></i></a
+      >
+    </div>
+  </section>
+  <section class="bg-body-tertiary">
+    <div class="container jumbotronSection">
+      <div
+        class="row d-flex flex-wrap justify-content-center align-items-center gap-1 gap-lg-5"
+      >
+        <div class="col-lg text-center">
+          <p class="fw-bold massiveNumberText mb-0">
+            <span>87</span>%
+          </p>
+          <p class="lead playfair-display mt-0">Something</p>
+        </div>
+        <div class="col-lg text-center">
+          <p class="fw-bold massiveNumberText mb-0">
+            <span>45</span>
+          </p>
+          <p class="lead playfair-display">Something else</p>
+        </div>
+        <div class="col-lg text-center">
+          <p class="fw-bold massiveNumberText mb-0">
+            <span>65+</span>
+          </p>
+          <p class="lead playfair-display">another thing</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container jumbotronSection">
+      <h1 class="playfair-display fw-bold">Industries</h1>
+      <div class="row mt-5 gap-2 gap-lg-1">
+        <div class="col-lg">
+          <div class="card border-radius-50 border-0 bg-dark">
+            <div class="row h-100 p-5">
+              <img
+                src="/market1.webp"
+                class="border-radius-50 w-100"
+                style="max-width:100%;max-height:100%"
+              />
+
+              <div class="text-white mt-4">
+                <h2 class="fw-bold display-5">Industry 1</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="btn btn-sm btn-outline-light border-radius-50"
+                  >Learn more <i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card border-radius-50 border-0 bg-dark-subtle">
+            <div class="row h-100 p-5">
+              <img
+                src="/market2.webp"
+                class="border-radius-50 w-100"
+                style="max-width:100%;max-height:100%"
+              />
+
+              <div class="text-dark mt-4">
+                <h2 class="fw-bold display-5">Industry 2</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="btn btn-sm btn-outline-dark border-radius-50"
+                  >Learn more <i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card border-radius-50 border-0 bg-secondary-subtle">
+            <div class="row h-100 p-5">
+              <img
+                src="/market3.webp"
+                class="border-radius-50 w-100"
+                style="max-width:100%;max-height:100%"
+              />
+
+              <div class="text-primary mt-4">
+                <h2 class="fw-bold display-5">Industry 3</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="btn btn-sm btn-outline-primary border-radius-50"
+                  >Learn more <i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-2 mt-lg-4 gap-2 gap-lg-1">
+        <div class="col-lg">
+          <div class="card border-radius-50 border-0 bg-dark-subtle">
+            <div class="row h-100 p-5">
+              <img
+                src="/market4.webp"
+                class="border-radius-50 w-100"
+                style="max-width:100%;max-height:100%"
+              />
+
+              <div class="text-dark mt-4">
+                <h2 class="fw-bold display-5">Industry 4</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="btn btn-sm btn-outline-dark border-radius-50"
+                  >Learn more <i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card border-radius-50 border-0 bg-secondary-subtle">
+            <div class="row h-100 p-5">
+              <img
+                src="/market5.webp"
+                class="border-radius-50 w-100"
+                style="max-width:100%;max-height:100%"
+              />
+
+              <div class="text-primary mt-4">
+                <h2 class="fw-bold display-5">Industry 5</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="btn btn-sm btn-outline-primary border-radius-50"
+                  >Learn more <i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg">
+          <div class="card border-radius-50 border-0 bg-primary-subtle">
+            <div class="row h-100 p-5">
+              <img
+                src="/market6.webp"
+                class="border-radius-50 w-100"
+                style="max-width:100%;max-height:100%"
+              />
+
+              <div class="text-primary mt-4">
+                <h2 class="fw-bold display-5">Industry 6</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <a class="btn btn-sm btn-outline-primary border-radius-50"
+                  >Learn more <i class="bi bi-arrow-right"></i></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container py-5 text-center">
+      <hr class="my-5" />
+      <h1 class="playfair-display display-1 pt-5">Interested?</h1>
+      <a class="btn btn-lg btn-primary border-radius-50 mt-3" href="/contact"
+        >Contact Us <i class="bi bi-arrow-right"></i></a
+      >
+    </div>
+  </section>
+  <div class="py-5"></div>
+</Layout>

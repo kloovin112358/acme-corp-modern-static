@@ -1,0 +1,22 @@
+---
+// SolutionCard.astro
+
+const { title, description, link, imageName } = Astro.props;
+---
+
+<div
+  class="card border-radius-50 border-0 solutionCard"
+  style={`background-image: url('/${imageName}');`}
+>
+  <div class="card-body p-5 h-100 d-flex flex-column justify-content-between">
+    <div class="text-white">
+      <h2 class="fw-bold">{title}</h2>
+      <p>{description}</p>
+    </div>
+    <div>
+      <a class="btn btn-primary border-radius-50" href={link}>
+        Learn more <i class="bi bi-arrow-right"></i>
+      </a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,19 @@
+---
+const { title, description, imageName } = Astro.props;
+---
+
+<div
+  class="card border-radius-50 border-0"
+  style={`background-image: url('/${imageName}');`}
+>
+  <div
+    class="card-body p-5 h-100 d-flex flex-column justify-content-between text-white"
+  >
+    <div class="">
+      <h2 class="fw-bold display-5">{title}</h2>
+    </div>
+    <div>
+      <p>{description}</p>
+    </div>
+  </div>
+</div>

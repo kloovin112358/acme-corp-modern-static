@@ -1,0 +1,49 @@
+$primary: #5a4bed;
+@import "bootstrap/scss/bootstrap";
+
+body {
+    font-family: 'Inter', sans-serif;
+  }
+.playfair-display {
+    font-family: "Playfair Display", serif;
+}
+.border-radius-50 {
+    border-radius: 50px;
+  }
+  .solutionCard {
+    min-height: 30rem;
+  }
+
+  .massiveNumberText {
+    font-size: 7rem;
+  }
+
+  @media (max-width: 1200px) {
+    .massiveNumberText {
+      font-size: 5.5rem;
+    }
+  }
+
+  @media (max-width: 991.98px) {
+    .massiveNumberText {
+      font-size: 4rem;
+    }
+  }
+  .belowFixedHeader {
+    margin-top: 5rem;
+  }
+
+  .jumbotronSection {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+  @media (max-width: 992px) {
+    /* Adjust the breakpoint as needed */
+    .col-lg-4 {
+      order: -1; /* Image will come before text on smaller screens */
+    }
+    .jumbotronSection {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+  }

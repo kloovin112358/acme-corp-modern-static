@@ -1,0 +1,60 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+interface Props {
+  marketName: string;
+}
+
+const { marketName } = Astro.props;
+---
+
+<style>
+  .hero-div {
+    background-image: url("/market1-splash-cutout.png");
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    min-height: 100vh;
+  }
+</style>
+<Layout title={marketName}>
+  <section class="hero-div bg-body-tertiary">
+    <div class="container">
+      <div style="position:absolute;margin-top:60vh">
+        <h1 class="display-1 fw-bold">
+          {marketName}
+        </h1>
+        <p>
+          This is a cool market, and the product<br />fills a great niche in the
+          market.
+        </p>
+      </div>
+    </div>
+  </section>
+  <section class="container jumbotronSection">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+      labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur
+      adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+      magna aliqua.
+    </p>
+  </section>
+</Layout>
