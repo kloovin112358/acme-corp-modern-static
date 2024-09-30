@@ -1,54 +1,16 @@
-# Astro Starter Kit: Basics
+# Modern site template built with Bootstrap using a clean, minimal design language
 
-```sh
-npm create astro@latest -- --template basics
-```
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
-
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+![1](https://github.com/user-attachments/assets/ec75c512-b610-4864-a87f-8a288b0d232a)
+![2](https://github.com/user-attachments/assets/a2c0ec85-bd1c-4b20-9987-bd49ae7fa00c)
+![3](https://github.com/user-attachments/assets/b0e31c71-8cd1-4ad1-b973-58bdc87a9122)
+![4](https://github.com/user-attachments/assets/08dbbacc-b325-45bc-ad88-e88f74993fa2)
+![5](https://github.com/user-attachments/assets/9201a1a9-8e26-4b04-8091-fe25d33d0b9c)
+![6](https://github.com/user-attachments/assets/f9670ca6-d024-4ebe-a6ee-599ff24a2707)
+![7](https://github.com/user-attachments/assets/40656b77-d40c-4541-b1eb-deab163ed6f4)
+![8](https://github.com/user-attachments/assets/a52ffa73-f0c5-45a3-9eea-bb9e125654c1)
+![9](https://github.com/user-attachments/assets/4db273e3-5a0d-41e9-9aae-13c7d968ba7a)
+![10](https://github.com/user-attachments/assets/f96a0a06-6a04-4d4c-aa30-0a9a5e1ad6d6)
+![11](https://github.com/user-attachments/assets/4627cc8b-b278-4e7e-9c62-60cd0b7da953)
+![12](https://github.com/user-attachments/assets/4c213a0e-6084-422d-a7a0-281cff36ce58)
+![13](https://github.com/user-attachments/assets/0d809422-05f5-47d8-9233-2ed17330dd18)
+![14](https://github.com/user-attachments/assets/b75911c5-f6f2-425f-8d64-411634b9fc55)
